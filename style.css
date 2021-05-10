@@ -14,4 +14,21 @@ Titres: #ffffff
  body {
    background: url('/pics/background.jpg');
  }
+
+ /* Typo header & main */
+.background,
+h3 {
+  color: #ffffff;
+}
+
+/* Footer */
+.footer {
+  background: #000000;
+  border-top: 2px solid #ffffff;
+}
+
+.logo {
+  color: #d3d3d3;
+  font-size: 25px;
+}
  

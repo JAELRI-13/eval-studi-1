@@ -29,6 +29,9 @@ h3 {
   border-bottom: 2px solid #ffffff;
 }
 /* Main */
+.color {
+  background: #D97904;
+}
 .opacity {
   border: #ffffff;
   width: 40em;

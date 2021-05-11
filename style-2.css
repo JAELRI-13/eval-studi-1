@@ -5,19 +5,25 @@ logo twitter:#1DA1F3
 Titres: #ffffff
  */
 
-
 html,
 body {
    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
 }
-/* 
+
 body {
   background: url('/pics/background.jpg');
-} */
- 
+}
+/* Typo */
+
+
 /* Main */
+.rounded {
+  opacity: 0.7;
+}
 
-
+.sizing {
+  width: 40em;
+}
 
  /* Footer */
 .footer {

@@ -14,7 +14,11 @@ body {
   background: url('/pics/background.jpg');
 }
 /* Typo */
-
+h1,
+h2,
+p {
+  color: #ffffff;
+}
 
 /* Main */
 .rounded {

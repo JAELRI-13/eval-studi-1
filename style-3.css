@@ -3,7 +3,7 @@ logo facebook: #3A5B9B
 logo instagram:#8F38A0
 logo twitter:#1DA1F3
 Titres: #ffffff
- */
+*/
 
 
 html,
@@ -25,8 +25,9 @@ h4,
   color: #ffffff;
 }
 
-.carousel-item {
-  width: 50em;
+.idem {
+  width: 30em;
+  height: 18em;
 }
 
 /* Footer */

@@ -36,6 +36,12 @@ form {
   padding: 15px;
 }
 
+/* header */
+.header {
+  background: #28465F;
+  border-bottom: 2px solid #ffffff;
+}
+
 /* Footer */
 .footer {
   background: #000000;

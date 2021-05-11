@@ -21,6 +21,11 @@ p {
   color: #ffffff;
 }
 
+/* header */
+.header {
+  background: #28465F;
+  border-bottom: 2px solid #ffffff;
+}
 /* Main */
 .rounded {
   opacity: 0.7;

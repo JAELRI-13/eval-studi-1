@@ -54,3 +54,9 @@ form {
   font-size: 25px;
 }
  
+.facebook,
+.instagram,
+.twitter:hover {
+  cursor: pointer;
+}
+ 

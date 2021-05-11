@@ -52,4 +52,10 @@ h3 {
   color: #d3d3d3;
   font-size: 25px;
 }
+
+.facebook,
+.instagram,
+.twitter:hover {
+  cursor: pointer;
+}
  

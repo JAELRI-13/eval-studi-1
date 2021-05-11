@@ -3,7 +3,8 @@ logo facebook: #3A5B9B
 logo instagram:#8F38A0
 logo twitter:#1DA1F3
 Titres: #ffffff
- */
+background éléments: 
+*/
 
 
 html,
@@ -23,9 +24,8 @@ h3 {
 
 /* Main */
 .opacity {
-  
+  border: #ffffff;
   width: 40em;
-  opacity: 0.7;
 }
 
 .card {

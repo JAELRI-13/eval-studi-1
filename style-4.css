@@ -14,4 +14,21 @@ body {
 body {
   background: url('/pics/background.jpg');
 }
+
+/* Typo header & main */
+h1,
+h2   {
+  color: #ffffff;
+}
+
+/* Footer */
+.footer {
+  background: #000000;
+  border-top: 2px solid #ffffff;
+}
+
+.logo {
+  color: #d3d3d3;
+  font-size: 25px;
+}
  

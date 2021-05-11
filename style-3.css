@@ -16,6 +16,7 @@ body {
 .header {
   background: #28465F;
   border-bottom: 2px solid #ffffff;
+  height: 30vh;
 }
 
 /* Main */

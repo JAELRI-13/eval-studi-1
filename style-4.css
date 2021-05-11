@@ -13,6 +13,7 @@ body {
   
 body {
   background: url('/pics/background.jpg');
+  background-size: cover;
 }
 
 /* Typo header & main */

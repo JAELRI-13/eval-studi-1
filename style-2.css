@@ -12,6 +12,7 @@ body {
 
 body {
   background: url('/pics/background.jpg');
+  background-size: cover;
 }
 /* Typo */
 h1,
@@ -26,6 +27,10 @@ p {
 }
 
 .sizing {
+  width: 40em;
+}
+
+.paragraphe {
   width: 40em;
 }
 

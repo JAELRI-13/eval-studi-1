@@ -18,8 +18,13 @@ body {
 
 /* Typo header & main */
 h1,
-h2   {
+h2,
+form {
   color: #ffffff;
+}
+
+form {
+  width: 60vw;
 }
 
 /* Footer */

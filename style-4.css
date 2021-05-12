@@ -65,4 +65,16 @@ form {
 .twitter:hover {
   cursor: pointer;
 }
+
+.fa-facebook-square:hover {
+  color: #3A5B9B;
+}
+
+.fa-instagram-square:hover {
+  color: #8F38A0;
+}
+
+.fa-twitter-square:hover {
+  color: #1DA1F3;
+}
  

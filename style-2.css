@@ -41,6 +41,10 @@ p {
   width: 40em;
 }
 
+.color {
+  background: #D97904;
+}
+
  /* Footer */
 .footer {
   background: #000000;

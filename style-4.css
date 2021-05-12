@@ -42,6 +42,12 @@ form {
   border-bottom: 2px solid #ffffff;
 }
 
+/* Main */
+
+.color {
+  background: #D97904;
+}
+
 /* Footer */
 .footer {
   background: #000000;

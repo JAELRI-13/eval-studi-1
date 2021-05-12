@@ -37,6 +37,9 @@ h4,
   height: 18em;
 }
 
+.color {
+  background: #D97904;
+}
 /* Footer */
 .footer {
   background: #000000;

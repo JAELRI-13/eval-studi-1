@@ -17,12 +17,11 @@ body {
    background-size: cover;
 }
 
-/* Typo header & main */
+/* Typo titres */ 
 h1,
-h3,
-h5 {
+h3 {
   color: #ffffff;
-}
+} 
 
 /* HEADER */
 header {
@@ -36,17 +35,19 @@ header li a:hover {
 }
 
 /* MAIN */
-.color {
+/* .color {
   background: #D97904;
 }
 .opacity {
   border: #ffffff;
   width: 40em;
-}
+} */
 
 .card {
   opacity: 0.7;
+  padding: 0;
 }
+
 
 /* FOOTER */
 footer {

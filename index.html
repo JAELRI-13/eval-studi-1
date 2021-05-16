@@ -23,7 +23,7 @@
 <body>
   <div class="container-fluid">
     <!-- Header -->
-    <div class="header row align-items-center justify-content-between p-4 mb-4">
+    <header class="row align-items-center justify-content-between p-5">
       <h1>Galaxie dance</h1>
       <ul class="nav justify-content-end">
         <li class="nav-item border-right border-white">
@@ -42,7 +42,7 @@
           <a class="nav-link" href="#">Infos évènements</a>
         </li>
       </ul>
-    </div>
+    </header>
     <!-- Main -->    
     <div class="d-flex justify-content-center">
       <div class="opacity rounded text-white text-justify p-3">
@@ -95,30 +95,50 @@
         <img src="/pics/page-1/zumba-adultes.jpg" class="card-img-top" alt="adults">
         <div class="card-body">
           <h4 class="card-title">Zumba adultes</h4>
-        </div>
+        </div>  
       </div>
     </div>
     <!-- Footer -->
-    <div class="footer row justify-content-around align-items-center mt-4 p-4">
-      <div class="logo">
-        <div class="facebook">
-          <i class="fab fa-facebook-square"></i>
-        </div>
-        <div class="instagram">
-          <i class="fab fa-instagram-square"></i>
-        </div>
-        <div class="twitter">
-          <i class="fab fa-twitter-square"></i>
+    <footer class="row">
+      <div class="col-2 mt-4">
+        <div class="text-center">
+          <ul class="text-justify">
+            <li><h6 class="grey text-uppercase">plan du site</h6></li>
+            <li><a href="/index.html" class="text-white">Accueil</a></li>
+            <li><a href="/page-2.html" class="text-white">Le professeur</a></li>
+            <li><a href="/page-3.html" class="text-white">Les cours</a></li>
+            <li><a href="/page-4.html" class="text-white">Contact</a></li>
+          </ul>
         </div>
       </div>
-      <div class="button">
-        <button type="button" class="btn color text-white mr-1">Nous appeler</button>
-        <button type="button" class="btn color text-white ml-1">Nous écrire</button>
+      <div class="col-4 mt-4">
+        <div class="text-center">
+          <h6 class="grey text-uppercase">retrouvez nous</h6>
+          <i class="pointer fab fa-facebook-square mr-1"></i>
+          <i class="pointer fab fa-instagram-square ml-1 mr-1"></i>
+          <i class="pointer fab fa-twitter-square ml-1"></i>  
+        </div>
       </div>
-    </div>
-    <div class="logo d-flex justify-content-center">
-      <i class="far fa-copyright">All right reserved</i>
-    </div>
+      <div class="col-4 mt-4">
+        <div class="text-center">
+          <ul class="text-justify">
+            <li><h6 class="grey text-uppercase">nous joindre</h6></li>
+            <li><i class="grey fas fa-phone-alt"></i><a href="tel:0123456789" class="text-white ml-3">01.23.45.67.89</a></li>
+            <li><i class="grey fas fa-at"></i><a href="mailto:mail@example.com" class="text-white ml-3">mail@example.com</a></li>
+          </ul>
+        </div>  
+      </div>
+      <div class="col-2 mt-4">
+        <div class="text-center">
+          <h6 class="grey text-uppercase">nos partenaires</h6>
+          <img src="/pics/fsgt.jpg" alt="fsgt" class="dimension mr-1">
+          <img src="/pics/ffdanse.jpg" alt="ffd" class="dimension ml-1">
+        </div>
+      </div>
+      <div class="col grey text-center">
+        <i class="far fa-copyright"> copyright 2021 - Association Galaxie dance</i>
+      </div> 
+    </footer>
   </div>
   <!-- js -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

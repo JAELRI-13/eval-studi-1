@@ -19,16 +19,23 @@ body {
 
 /* Typo header & main */
 h1,
-h3 {
+h3,
+h5 {
   color: #ffffff;
 }
 
-/* header */
-.header {
+/* HEADER */
+header {
   background: #28465F;
   border-bottom: 2px solid #ffffff;
 }
-/* Main */
+
+header li a:hover {
+  background: #D97904;
+  color: #ffffff;
+}
+
+/* MAIN */
 .color {
   background: #D97904;
 }
@@ -41,33 +48,56 @@ h3 {
   opacity: 0.7;
 }
 
-/* Footer */
-.footer {
+/* FOOTER */
+footer {
   background: #000000;
   border-top: 2px solid #ffffff;
   height: 30vh;
+  opacity: 0.9;
 }
 
-.logo {
+/* couleur des rubriques */
+.grey {
   color: #d3d3d3;
-  font-size: 25px;
+  font-size: 16px;
 }
 
-.facebook,
-.instagram,
-.twitter:hover {
-  cursor: pointer;
+/* puces de liste */
+ul > li {
+  list-style: none;
 }
+
+/* liens "plan du site" et "nous joindre" */  
+.text-white:hover {
+  background: #D97904;
+}
+
+/* liens réseaux sociaux */
+.pointer {
+  cursor: pointer;
+  font-size: 25px;
+  color: #ffffff;
+} 
 
 .fa-facebook-square:hover {
   color: #3A5B9B;
 }
-
+ 
 .fa-instagram-square:hover {
   color: #8F38A0;
-}
-
+} 
+ 
 .fa-twitter-square:hover {
   color: #1DA1F3;
+}   
+
+/* images partenaires */
+.dimension {
+  width: 3em;
+  height: 3em;
 }
- 
+
+/* copyright */
+.far {
+  font-size: 13px;  
+} 

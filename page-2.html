@@ -38,10 +38,54 @@
         <li class="nav-item border-right border-white">
           <a class="nav-link" href="/page-4.html">Contact</a>
         </li>
+        <!-- bouton modal -->
+        <button type="button" class="btn text-primary border-white rounded float-right ml-3" 
+        data-toggle="modal" data-target="#exampleModal">
+          Prochains évènements
+        </button>
       </ul>
     </header>
     <!-- Main -->
     <main>
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Participez aux prochains évènements</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <h6>Remplissez les champs ci-dessous pour ne rien rater</h6>
+              <form>
+                <div class="form-group">
+                  <label for="exampleInputLastName">Nom</label>
+                  <input type="LastName" class="form-control" id="exampleLastName">
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputFirstName">Prénom</label>
+                  <input type="FirstName" class="form-control" id="exampleFirstName">
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Adresse mail</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputCity">Ville de résidence</label>
+                  <input type="City" class="form-control" id="exampleInputCity">
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-outline-primary">S'inscrire</button>
+              <button type="button" class="btn btn-outline-secondary" data-dismiss="modal">fermer</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Fin du modal -->
       <div class="d-flex justify-content-center mt-3 mb-3">
         <h2>Marjorie Boituzat</h2>
       </div> 

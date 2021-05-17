@@ -17,9 +17,11 @@ body {
    background-size: cover;
 }
 
-/* Typo titres */ 
+/* Typo */ 
 h1,
-h3 {
+h2,
+h3,
+.card-text {
   color: #ffffff;
 } 
 
@@ -35,19 +37,21 @@ header li a:hover {
 }
 
 /* MAIN */
-/* .color {
+
+button:hover {
   background: #D97904;
 }
-.opacity {
-  border: #ffffff;
-  width: 40em;
-} */
 
+button a:hover {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+/* présentation des cours */
 .card {
   opacity: 0.7;
   padding: 0;
 }
-
 
 /* FOOTER */
 footer {

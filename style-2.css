@@ -1,14 +1,13 @@
 /* Références couleurs
+header: #28465F
+footer: #000000
+Titres: #ffffff
+titres footer: #d3d3d3
 logo facebook: #3A5B9B
 logo instagram:#8F38A0
 logo twitter:#1DA1F3
-Titres: #ffffff
- */
-
-html,
-body {
-   font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
-}
+hover: #D97904
+*/
 
 body {
   background: url('/pics/background.jpg');

@@ -6,16 +6,17 @@ baground éléments: #3A5B9B
 Titres: #ffffff
 */
 
-
-html,
-body {
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
-}
-  
 body {
   background: url('/pics/background.jpg');
   background-size: cover;
 }
+
+/* Typo header & main */
+h1,
+h2,
+form {
+  color: #ffffff;
+} 
 
 /* HEADER */
 header {
@@ -27,13 +28,6 @@ header li a:hover {
   background: #D97904;
   color: #ffffff;
 }
-
-/* Typo header & main */
-/* h1,
-h2,
-form {
-  color: #ffffff;
-} */
 
 .middle {
   display: flex;
@@ -47,17 +41,17 @@ form {
   padding: 15px;
 }
 
-/* header */
 .header {
   background: #28465F;
   border-bottom: 2px solid #ffffff;
 }
 
-/* Main */
+/* MAIN */
 
+/* bouton */
 .color {
   background: #D97904;
-}
+} 
 
 /* FOOTER */
 footer {

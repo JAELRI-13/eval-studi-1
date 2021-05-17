@@ -5,11 +5,19 @@ logo twitter:#1DA1F3
 Titres: #ffffff
 */
 
-
-html,
 body {
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  background: url('/pics/background.jpg');
+  background-size: cover;
 }
+/* TYPO */
+
+h1,
+h2,
+h3,
+h4 {
+  color: #ffffff;
+}
+
 
 /* HEADER */
 header {
@@ -22,29 +30,18 @@ header li a:hover {
   color: #ffffff;
 }
 
-/* Main */
+/* MAIN */
 
-body {
-  background: url('/pics/background.jpg');
-  background-size: cover;
+#carouselExampleCaptions {
+  width: 50%;
+  margin: 0 auto;
 }
 
-h1,
-h2,
-h3,
-h4,
-.table {
-  color: #ffffff;
+.carousel-item img {
+  width: 50vw;
+  height: 60vh;
 }
 
-.idem {
-  width: 30em;
-  height: 18em;
-}
-
-.color {
-  background: #D97904;
-}
 /* FOOTER */
 footer {
   background: #000000;
@@ -64,7 +61,7 @@ ul > li {
   list-style: none;
 }
 
-/* liens "plan du site" et "nous joindre" */  
+/* liens "plan du site" "nous joindre" fond du tableau au survol */  
 .text-white:hover {
   background: #D97904;
 }

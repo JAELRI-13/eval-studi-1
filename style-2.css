@@ -41,14 +41,19 @@ header li a:hover {
 footer {
   background: #000000;
   border-top: 2px solid #ffffff;
-  height: 30vh;
   opacity: 0.9;
 }
 
 /* couleur des rubriques */
+h6,
 .grey {
   color: #d3d3d3;
   font-size: 16px;
+}
+
+/* couleur des logos */
+i {
+  color: #ffffff;
 }
 
 /* puces de liste */
@@ -65,7 +70,6 @@ ul > li {
 .pointer {
   cursor: pointer;
   font-size: 25px;
-  color: #ffffff;
 } 
 
 .fa-facebook-square:hover {

@@ -25,25 +25,32 @@
     <!-- Header -->
     <header class="row align-items-center justify-content-between p-5">
       <h1>Galaxie dance</h1>
-      <ul class="nav justify-content-end">
-        <li class="nav-item border-right border-white">
-          <a class="nav-link active text-white" href="/index.html">Accueil</a>
-        </li>
-        <li class="nav-item border-right border-white">
-          <a class="nav-link" href="/page-2.html">Le professeur</a>
-        </li>
-        <li class="nav-item border-right border-white">
-          <a class="nav-link" href="/page-3.html">Les cours</a>
-        </li>
-        <li class="nav-item border-right border-white">
-          <a class="nav-link" href="/page-4.html">Contact</a>
-        </li>
-        <!-- bouton modal -->
-        <button type="button" class="btn text-primary border-white rounded float-right ml-3" 
-        data-toggle="modal" data-target="#exampleModal">
-          Prochains évènements
+      <nav class="navbar navbar-expand-lg navbar-primary">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fa fa-bars"></i>        
         </button>
-      </ul>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link text-white" href="/index.html">Accueil</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/page-2.html">Le professeur</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/page-3.html">Les cours</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/page-4.html  ">Contact</a>
+            </li>
+            <li><button type="button" class="btn btn-outline-primary border-white rounded bouton-modal" 
+              data-toggle="modal" data-target="#exampleModal">
+                Prochains évènements
+              </button>
+            </li> 
+          </ul>
+        </div>
+      </nav>
     </header>
     <!-- Main --> 
     <main class="m-4">
@@ -89,13 +96,14 @@
       <div class="row border border-white rounded">
         <div class="card-body">
           <h2 class="card-title text-center">L'association</h2>
-          <p class="card-text">L'association Galaxie danse a été fondée par Marjorie Boituzat en 
-            2015 dans le but de promouvoir la danse et le fitness dans plusieurs communes des Bouches 
-            du Rhône. Vous trouverez forcément un cours qui vous convient en fonction de votre âge
-            et de vos envies. De plus vous avez le choix entre la section loisir et la section 
-            compétition. N'attendez plus et venez nous retrouver ...
+          <p class="card-text">Bienvenue sur le site de notre association. Galaxie danse a été fondée 
+            par Marjorie Boituzat en 2015 dans le but de promouvoir la danse et le fitness dans plusieurs 
+            communes des Bouches du Rhône. Que vous soyez amateur ou confirmé, vous trouverez forcément 
+            un cours qui vous convient en fonction de vos envies, de votre niveau et de votre âge.<br> 
+            De plus vous avez le choix entre la section loisir pour progresser à votre rythme
+            et la section compétition pour vous challenger. Nous avons hâte de vous retrouver ...
           </p>
-          <button type="button" class="btn border-white rounded float-right">
+          <button type="button" class="btn border-white rounded float-right bouton-main">
             <a href="/page-2.html">Découvrez notre professeur</a>
           </button>
         </div>
@@ -105,7 +113,7 @@
       </div>
       <div class="row text-center justify-content-between">
         <div class="col-lg-3 col-md-5 col-sm-12 card">
-          <img src="/pics/page-1/Modern jazz enfants.jpg" class="card-img-top" alt="enfants">
+          <img src="/pics/page-1/Modern jazz enfants.jpg" class="card-img-top h-50" alt="enfants">
           <div class="card-body">
             <h4 class="card-title">Jazz enfants</h4>
             <p>Si votre enfant aime danser, n'hésitez plus et venez l'inscrire. Trois catégories sont 
@@ -117,36 +125,36 @@
           </div>
         </div>
         <div class="col-lg-3 col-md-5 col-sm-12 card">
-          <img src="/pics/page-1/Modern jazz ados.jpg" class="card-img-top" alt="ados">
+          <img src="/pics/page-1/Modern jazz ados.jpg" class="card-img-top h-50" alt="ados">
           <div class="card-body">
             <h4 class="card-title">Jazz ados</h4>
             <p>Choisissez entre la section loisir ou la section compétition. Catégorie réservée aux
-              13-17 ans. Chaque année nous sommes sollicitées pour participer à de nombreux évènements
+              13-17 ans.<br> Chaque année nous sommes sollicitées pour participer à de nombreux évènements
               en France. 
             </p>
           </div>
         </div>
         <div class="col-lg-3 col-md-5 col-sm-12 card">
-          <img src="/pics/page-1/Modern jazz adultes.jpg" class="card-img-top" alt="adultes">
+          <img src="/pics/page-1/Modern jazz adultes.jpg" class="card-img-top h-50" alt="adultes">
           <div class="card-body">
             <h4 class="card-title">Jazz adultes</h4>
-            <p>Débutante ou confirmée, venez retrouver notre équipe de danseurs. Vous apprendrez 
+            <p>Débutante ou confirmée, venez retrouver notre équipe de danseurs. <br>Vous apprendrez 
               a évoluer sur un panel de rythmes et musiques variées et vous travaillerez la 
               coordination au sein d'un groupe.
             </p>
           </div>
         </div>
         <div class="col-lg-3 col-md-5 col-sm-12 card">
-          <img src="/pics/page-1/zumba-kids.jpeg" class="card-img-top" alt="kids">
+          <img src="/pics/page-1/zumba-kids.jpeg" class="card-img-top h-50" alt="kids">
           <div class="card-body">
             <h4 class="card-title">Zumba kids</h4>
-            <p>Une initiation sportive qui mélange sport et danse mais pas que! Grâce à 
+            <p>Une initiation sportive qui mélange sport et danse mais pas que! <br>Grâce à 
               la zumba kids, vos enfants développent leur motricité.
             </p>
           </div>
         </div>
         <div class="col-lg-3 col-md-5 col-sm-12 card">
-          <img src="/pics/page-1/zumba-adultes.jpg" class="card-img-top" alt="zumba">
+          <img src="/pics/page-1/zumba-adultes.jpg" class="card-img-top h-50" alt="zumba">
           <div class="card-body">
             <h4 class="card-title">Zumba fitness</h4>
             <p>Quoi de mieux que la Zumba pour pratiquer un sport de manière ludique. Vous pourrez 
@@ -156,7 +164,7 @@
           </div>
         </div>
         <div class="col-lg-3 col-md-5 col-sm-12 card">
-          <img src="/pics/page-1/renforcement musculaire.jpg" class="card-img-top" alt="renfo">
+          <img src="/pics/page-1/renforcement musculaire.jpg" class="card-img-top h-50" alt="renfo">
           <div class="card-body">
             <h4 class="card-title">Renforcement musculaire</h4>
             <p>Séances cardios training comprenants des hits avec des temps de récupérations courts pour

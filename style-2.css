@@ -26,10 +26,27 @@ header {
   border-bottom: 2px solid #ffffff;
 }
 
-header li a:hover {
-  background: #D97904;
+nav li a:hover {
+  background: #d97904;
   color: #ffffff;
 }
+
+.bouton-modal:hover {
+  background: #d97904;
+}
+
+.bouton-modal:hover {
+  color: #ffffff;
+}
+
+.navbar-toggler {
+  border: 2px solid #ffffff;
+}
+
+.navbar .fa {
+  color: #ffffff;
+}
+
 
 /* MAIN */
 .rounded-circle {

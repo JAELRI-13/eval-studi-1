@@ -25,25 +25,32 @@
     <!-- Header -->
     <header class="row align-items-center justify-content-between p-5">
       <h1>Galaxie dance</h1>
-      <ul class="nav justify-content-end">
-        <li class="nav-item border-right border-white">
-          <a class="nav-link" href="/index.html">Accueil</a>
-        </li>
-        <li class="nav-item border-right border-white">
-          <a class="nav-link" href="/page-2.html">Le professeur</a>
-        </li>
-        <li class="nav-item border-right border-white">
-          <a class="nav-link" href="/page-3.html">Les cours</a>
-        </li>
-        <li class="nav-item border-right border-white">
-          <a class="nav-link active text-white" href="/page-4.html">Contact</a>
-        </li>
-         <!-- bouton modal -->
-         <button type="button" class="btn text-primary border-white rounded float-right ml-3" 
-         data-toggle="modal" data-target="#exampleModal">
-           Prochains évènements
-         </button>
-      </ul>
+      <nav class="navbar navbar-expand-lg navbar-primary">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fa fa-bars"></i>        
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="/index.html">Accueil</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/page-2.html">Le professeur</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/page-3.html">Les cours</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link text-white" href="/page-4.html">Contact</a>
+            </li>
+            <li><button type="button" class="btn btn-outline-primary border-white rounded bouton-modal" 
+              data-toggle="modal" data-target="#exampleModal">
+                Prochains évènements
+              </button>
+            </li> 
+          </ul>
+        </div>
+      </nav>
     </header>
     <!-- Main -->
     <main>

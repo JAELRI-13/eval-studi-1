@@ -80,15 +80,14 @@ footer {
   opacity: 0.9;
 }
 
+h6 {
+  color: #d3d3d3;
+}
+
 /* couleur des rubriques */
 .grey {
   color: #d3d3d3;
-  font-size: 16px;
-}
-
-/* puces de liste */
-ul > li {
-  list-style: none;
+  font-size: 15px;
 }
 
 /* liens "plan du site" et "nous joindre" */  
@@ -99,21 +98,21 @@ ul > li {
 /* liens réseaux sociaux */
 .pointer {
   cursor: pointer;
-  font-size: 25px;
+  font-size: 22px;
   color: #ffffff;
-} 
+}
 
 .fa-facebook-square:hover {
   color: #3A5B9B;
 }
- 
+
 .fa-instagram-square:hover {
   color: #8F38A0;
-} 
- 
+}
+
 .fa-twitter-square:hover {
   color: #1DA1F3;
-}   
+}
 
 /* images partenaires */
 .dimension {
@@ -123,5 +122,6 @@ ul > li {
 
 /* copyright */
 .far {
+  color: #d3d3d3;
   font-size: 13px;  
-} 
+}

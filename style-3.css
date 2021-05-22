@@ -51,15 +51,9 @@ nav li a:hover {
 
 
 /* MAIN */
-
-#carouselExampleCaptions {
-  width: 50%;
-  margin: 0 auto;
-}
-
-.carousel-item img {
-  width: 50vw;
-  height: 60vh;
+img {
+  box-shadow: 0 0 15px;
+  height: 60vh
 }
 
 /* FOOTER */

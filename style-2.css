@@ -53,6 +53,23 @@ nav li a:hover {
   height: 30em;
 }
 
+@media screen and (max-width: 1214px) {
+  .remove2 {
+    display: none;
+  } 
+} 
+
+@media screen and (max-width: 768px) {
+  .remove1,
+  .remove2 {
+    display: none;
+  }
+
+  .center {
+    justify-content: center;
+  }
+}
+
 /* FOOTER */
 footer {
   background: #000000;

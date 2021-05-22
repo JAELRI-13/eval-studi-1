@@ -123,11 +123,14 @@ h6 {
   .remove2 {
     display: none;
   }
+}
 
+@media screen and (max-width: 576px) {
   .center {
-    justify-content: center;
+    width: max-content;
   }
 }
+
 
 /* media query pour la lisibilité du texte */
 @media screen and (max-width: 720px) {

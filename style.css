@@ -129,3 +129,10 @@ h6 {
   color: #d3d3d3;
   font-size: 13px;  
 }
+
+@media screen and (max-width: 720px) {
+  .all {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+  }   
+}

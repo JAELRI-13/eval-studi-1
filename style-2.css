@@ -58,23 +58,6 @@ nav li a:hover {
   height: 30em;
 }
 
-@media screen and (max-width: 1214px) {
-  .remove2 {
-    display: none;
-  } 
-} 
-
-@media screen and (max-width: 768px) {
-  .remove1,
-  .remove2 {
-    display: none;
-  }
-
-  .center {
-    justify-content: center;
-  }
-}
-
 /* FOOTER */
 footer {
   background: #000000;
@@ -126,4 +109,30 @@ h6 {
 .far {
   color: #d3d3d3;
   font-size: 13px;  
+}
+
+/* media queries pour les images */
+@media screen and (max-width: 1214px) {
+  .remove2 {
+    display: none;
+  } 
+} 
+
+@media screen and (max-width: 768px) {
+  .remove1,
+  .remove2 {
+    display: none;
+  }
+
+  .center {
+    justify-content: center;
+  }
+}
+
+/* media query pour la lisibilité du texte */
+@media screen and (max-width: 720px) {
+  p {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+  }   
 }

@@ -54,11 +54,50 @@
     </header>
     <!-- Main -->
     <main>
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Participez aux prochains évènements</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <h6>Remplissez les champs ci-dessous pour ne rien rater</h6>
+              <form class="text-dark">
+                <div class="form-group">
+                  <label for="exampleInputLastName">Nom</label>
+                  <input type="LastName" class="form-control" id="exampleLastName">
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputFirstName">Prénom</label>
+                  <input type="FirstName" class="form-control" id="exampleFirstName">
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputEmail1">Adresse mail</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+                <div class="form-group">
+                  <label for="exampleInputCity">Ville de résidence</label>
+                  <input type="City" class="form-control" id="exampleInputCity">
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-outline-primary">S'inscrire</button>
+              <button type="button" class="btn btn-outline-secondary" data-dismiss="modal">fermer</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Fin du modal -->
       <div class="row justify-content-center my-4">
         <h2>A votre service</h2>
       </div>
       <div class="row justify-content-center mb-4">
-        <form class="col-lg-8 col-md-10 col-sm-11 mx-2">
+        <form class="lightblue blanc col-lg-8 col-md-10 col-sm-11 mx-2">
           <div class="form-check">
             <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
             <label class="form-check-label" for="exampleRadios1">
@@ -94,7 +133,7 @@
     <!-- Footer -->
     <footer class="row">
       <div class="col-sm col-md-6 col-lg text-center">
-        <h6 class="text-uppercase mt-2">plan du site</h6>
+        <h6 class="title text-uppercase mt-2">plan du site</h6>
         <ul class="list-unstyled">
           <li>
             <a href="/index.html" class="text-white">Accueil</a>
@@ -111,7 +150,7 @@
         </ul>
       </div>
       <div class="col-sm col-md-6 col-lg text-center">
-        <h6 class="text-uppercase mt-2">retrouvez nous</h6>
+        <h6 class="title text-uppercase mt-2">retrouvez nous</h6>
         <ul class="list-unstyled">
           <li>          
             <i class="pointer fab fa-facebook-square"></i>
@@ -125,7 +164,7 @@
         </ul>
       </div>
       <div class="col-sm col-md-6 col-lg text-center">
-        <h6 class="text-uppercase mt-2">nous joindre</h6>
+        <h6 class="title text-uppercase mt-2">nous joindre</h6>
         <ul class="list-unstyled">
           <li>
             <i class="grey fas fa-phone-alt"></i>
@@ -138,7 +177,7 @@
         </ul>
       </div> 
       <div class="col-sm col-md-6 col-lg text-center">
-        <h6 class="text-uppercase mt-2">nos partenaires</h6>
+        <h6 class="title text-uppercase mt-2">nos partenaires</h6>
         <ul class="list-unstyled">
           <li>
             <a href="https://www.fsgt.org/" target="_blank">

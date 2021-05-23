@@ -60,6 +60,7 @@ nav li a:hover {
 
 p {
   text-align: justify;
+  font-size: 18px;
 }
 
 .bouton-main:hover {
@@ -75,6 +76,7 @@ p {
 .card {
   opacity: 0.7;
   padding: 0;
+  font-weight: 500;
 }
 
 /* FOOTER */
@@ -133,6 +135,5 @@ h6 {
 @media screen and (max-width: 720px) {
   .all {
     background: rgba(0, 0, 0, 0.5);
-    padding: 10px;
   }   
 }

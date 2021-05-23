@@ -58,6 +58,10 @@ nav li a:hover {
   height: 30em;
 }
 
+p {
+  font-size: 18px;
+}
+
 /* FOOTER */
 footer {
   background: #000000;
@@ -127,7 +131,7 @@ h6 {
 
 @media screen and (max-width: 576px) {
   .center {
-    width: max-content;
+    width: 100%;
   }
 }
 
